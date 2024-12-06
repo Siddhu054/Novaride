@@ -1,0 +1,45 @@
+novaride/
+├── .env
+├── server/
+│   ├── package.json
+│   ├── node_modules/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── rideController.js
+│   │   └── userController.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── error.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Ride.js
+│   │   └── Payment.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── rides.js
+│   │   └── users.js
+│   ├── utils/
+│   │   └── socket.js
+│   └── index.js
+├── src/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Home/
+│   │   ├── RideBooking/
+│   │   │   ├── RideBooking.js
+│   │   │   └── Map.js
+│   │   ├── Authentication/
+│   │   └── Map/
+│   ├── assets/
+│   ├── styles/
+│   ├── utils/
+│   │   ├── api.js
+│   │   └── auth.js
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   └── RideContext.js
+│   └── hooks/
+│       ├── useAuth.js
+│       └── useRide.js
